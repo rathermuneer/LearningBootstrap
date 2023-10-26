@@ -6,11 +6,14 @@
   border: 1px solid blueviolet;
 } */
 
+body {
+  margin-top: 30px;
+}
 
 /* columns */
 
 .box {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background-color: lightblue;
   border: 1px solid blue;
   min-height: 50px;
