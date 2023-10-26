@@ -100,48 +100,56 @@
 
           <!--Label must come after the input here, inorder for the floating labels to work! -->
           <!-- <label for="email" class="form-label">Email</label> -->
-        <!-- </div> -->
-        <!-- <button>Submit</button> -->
-      <!-- </form> -->
+          <!-- </div> -->
+          <!-- <button>Submit</button> -->
+          <!-- </form> -->
 
 
-      <!-- Form Validation! -->
-       <!-- <form novalidate>
-        <div class="form-floating">
-          <input type="email" id="email" class="form-control" placeholder="Enter email here" required>
-          <label for="email" class="form-label">Email</label> -->
+          <!-- Form Validation! -->
+          <!-- <form novalidate>
+            <div class="form-floating">
+              <input type="email" id="email" class="form-control" placeholder="Enter email here" required>
+              <label for="email" class="form-label">Email</label> -->
 
-          <!--Valid and invalid feedback classes should always be after the label in order for them to work! -->
-          <!-- <div class="invalid-feedback">Your email is invalid!</div>
-          <div class="valid-feedback">This is a valid email</div>
-        </div>
-        <button>Submit</button> -->
-      <!-- </form>
-    </div>
-    <script>
-      const form = document.querySelector("form")
+              <!--Valid and invalid feedback classes should always be after the label in order for them to work! -->
+              <!-- <div class="invalid-feedback">Your email is invalid!</div>
+                <div class="valid-feedback">This is a valid email</div>
+              </div>
+              <button>Submit</button> -->
+              <!-- </form>
+              </div>
+              <script>
+                const form = document.querySelector("form")
 
-      form.addEventListener('submit', e =>  {
-        if(!form.checkValidity()){
-          e.preventDefault()
-        }
+                form.addEventListener('submit', e =>  {
+                  if(!form.checkValidity()){
+                    e.preventDefault()
+                  }
 
-        form.classList.add('was-validated')
-      })
-    </script> -->
+                  form.classList.add('was-validated')
+                })
+              </script> -->
 
 
 
-    <!--Bootstarp Components! -->
+              <!--Bootstarp Components! -->
 
-    <!--Buttons! -->
-    <div class="btn-group-vertical">
-      <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
-      <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
-      <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
-      <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
-      <a class="btn btn-primary" href="#">Test</a>
-    </div>
+              <!--Buttons! -->
+              <!-- <div class="btn-group-vertical">
+                <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
+                <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
+                <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
+                <button class="btn btn-outline-primary active" data-bs-toggle="button" aria-pressed="true">Test</button>
+                <a class="btn btn-primary" href="#">Test</a>
+              </div> -->
 
-  </body>
-  </html>
+              <!--Alerts! -->
+              <div class="alert alert-dark alert-dismissible fade show" role="alert">
+                <h1>Alert</h1>
+                <a href="#" class="alert-link">Go here to find out more</a>
+                <button class="btn-close" aria-label="close" data-bs-dismiss="alert"></button>
+              </div>
+
+              <!--Cards! -->
+            </body>
+            </html>
