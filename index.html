@@ -59,26 +59,50 @@
     </table> -->
 
     <!-- Forms In Bootstrap! -->
-    <form>
-      <label for="email" class="form-label form-check-label">Email</label>
+    <!-- <form>
+      <label for="email" class="form-label form-check-label">Email</label> -->
 
       <!--Inputs! -->
-      <input type="email" id="email" value="email@gmail.com" readonly class="form-control">
+      <!-- <input type="email" id="email" value="email@gmail.com" readonly class="form-control"> -->
 
       <!--Select! -->
-      <select class="form-select">
+      <!-- <select class="form-select">
         <option>One</option>
         <option>Two</option>
         <option>Three</option>
-      </select>
+      </select> -->
 
       <!--Checkbox! -->
-      <div class="form-check form-switch">
+      <!-- <div class="form-check form-switch">
         <input type="checkbox" id="email" class="form-check-input">
-      </div>
+      </div> -->
 
-      <button>Submit</button>
-    </form>
-  </div>
-</body>
-</html>
+      <!-- <button>Submit</button> -->
+      <!-- </form> -->
+
+
+      <!--Input Groups In Bootstrap! -->
+      <!-- <form>
+        <label for="text" class="form-label">Amount</label>
+        <div class="input-group">
+          <div class="input-group-text">$</div>
+          <input type="number" id="text" class="form-control" />
+          <button class="btn btn-primary">+</button>
+        </div>
+        <button>Submit</button>
+      </form> -->
+
+      <!--Floating Labels! -->
+      <form>
+        <div class="form-floating">
+          <!--Input must have a placeholder, otherwise floating labels won't work! -->
+          <input type="email" id="email" class="form-control" placeholder="Enter email">
+
+          <!--Label must come after the input here, inorder for the floating labels to work! -->
+          <label for="email" class="form-label">Email</label>
+        </div>
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+  </html>
